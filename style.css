@@ -1,0 +1,51 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto',sans-serif;
+}
+main{
+    border: 1px solid black;
+}
+
+.painter{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #4682B4;
+    padding: 20px 10px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+
+}
+.cancel{
+    display: flex;
+    margin: 10px;
+}
+span{
+   background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+}
